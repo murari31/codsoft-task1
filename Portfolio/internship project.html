@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Fixed the incorrect value -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="intern projecct.css">
+    <style>
+        @import url('http://127.0.0.1:5500/internship%20project.html');
+    </style>
+    <script src="https://kit.fontawesome.com/cc3843841d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="laddu.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hey,<span>I'm Murari Reddy</span></h1>
+                <h2>Welcome To My Portfolio</h2>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me_2-removebg-preview.png" alt="Profile Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi, I'm Murari Reddy, a confident, enthusiastic learner with extensive communication skills and an extrovert personality . I seek for more creative ways in every aspect and learning something new always interests me. I am a team player who can also work independently. Looking forward to enter into the working world and work smart.</p><br>
+                    <p class="sentence-gap"> In addition to my academy, I have a interest in dance and My passion for coding extends to building dynamic and user-friendly applications, and I'm constantly learning new technologies to improve my skills.</p>
+                    <br><p class="sentence-gap">Thank you for visiting my portfolio, and I look forward to connecting with you!</p>
+                   <div id="skills">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Designing and developing websites</li>
+                            <li><span>Python Development</span><br>Developing many projects related to Python</li>
+                            <li><span>Professional Dancer</span><br>Member of Team Muteup(Dance Club) Veltech University</li>
+                            <li><span>Photoshop editor</span><br>Retouching the photos for good looking etc...</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Web Development intern at Code Soft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>I am currently pursuing my Bachelor's degree in Computer Science and Engineering at Vel Tech University</li>
+                            <li><span>2019 - 10th</span><br>Narayana Concept School</li>
+                            <li><span>2021 - 12th</span><br>Narayana Junior College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+    <div id="projects">
+        <div class="container">
+            <div class="sub-title">Projects</div>
+            <div class="projects-list">
+                <div class="projects">
+                    <img src="Ultrasonic Diy Humidifier.jpg">
+                    <div class="layer">
+                        <h3>Ultrasonic Diy Humidifier</h3>
+                        <p>"A humidifier adds moisture to the air, relieving issues like dry skin and respiratory problems while also protecting household items from dryness."</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <img src="Online-Exam-Portal.jpeg">
+                    <div class="layer">
+                        <h3>Online Examination Portal</h3>
+                        <p>"Built an Online Examination Portal using the concepts of DBMS, PHP, SQL, HTML and CSS.This includes the features such as Admin adding or removing a Test and Student attempting an existing test."</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <img src="follow my plate.jpg">
+                    <div class="layer">
+                        <h3>Follow My Plate</h3>
+                        <p>"Follow My Plate was a web project focused on personalized meal planning and healthy eating, which I developed to help users track their meals and make informed nutrition choices."</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                    <div class="projects">
+                        <img src="Breast cancer detection.jpg">
+                        <div class="layer">
+                            <h3>Breast Cancer Detection</h3>
+                            <p>"Designed and developed a Breast Cancer Detection algorithm using Random forest Classifier and calculated the accuracy comparing it to the other models and made a better fitting model to distinguish between the malignant and benign cancers."</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/murari-reddy-0575a2282"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/share/199LNutYgs/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mr_murari_005/profilecard/?igsh=ODFvb2J4eTA5bmkw"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/murari31"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="/contact" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Murari.
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+  <script>
+      document.querySelector('form').addEventListener('submit', function (e) {
+          e.preventDefault(); // Prevent default form submission
+          alert('Your message has been sent successfully!');
+      });
+  </script>
+  
+
+</body>
+</html>
